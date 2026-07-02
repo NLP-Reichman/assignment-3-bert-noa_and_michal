@@ -19,5 +19,8 @@
       77
     ]
   },
-  "test_model": "KeyError('F1')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_6181/1579568773.py\", line 59, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_6181/1579568773.py\", line 44, in test_model\n    'f1': results_eval['F1'],\n          ~~~~~~~~~~~~^^^^^^\nKeyError: 'F1'\n"
+  "test_model": {
+    "f1": 0.9627384001039574,
+    "f1_wo_o": 0.9833676419412107
+  }
 }
